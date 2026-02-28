@@ -140,10 +140,15 @@ ${rulesText}
     }
 
     return NextResponse.json({ message: generatedMessage, matchedIndustry });
-  } catch (error) {
-    console.error("Generate message error:", error);
+  } catch (error: unknown) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    console.error("Generate message error:", errorMessage);
     return NextResponse.json(
-      { error: "Failed to generate message. Please try again." },
+      {
+        error: "Failed to generate message. Please try again.",
+        debug: process.env.NODE_ENV === "development" ? errorMessage : undefined,
+        detail: errorMessage,
+      },
       { status: 500 }
     );
   }

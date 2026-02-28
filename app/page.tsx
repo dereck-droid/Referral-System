@@ -29,15 +29,17 @@ export default function Home() {
         body: JSON.stringify(data),
       });
 
+      const result = await response.json();
+
       if (!response.ok) {
-        throw new Error("Failed to generate message");
+        throw new Error(result.detail || "Failed to generate message");
       }
 
-      const result = await response.json();
       setGeneratedMessage(result.message);
       setLastFormData(data);
-    } catch {
-      setError("Something went wrong. Please try again.");
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : "Something went wrong.";
+      setError(msg);
     } finally {
       setIsLoading(false);
     }
