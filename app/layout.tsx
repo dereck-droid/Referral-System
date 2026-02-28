@@ -2,9 +2,28 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://referral-system.vercel.app"
+  ),
   title: "Refer a Business Owner | Advanced Lead Solutions",
   description:
     "Know a business owner who could benefit from AI? Generate a personalized referral message in seconds.",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
+  openGraph: {
+    title: "Know a Business Owner Who Could Use AI?",
+    description:
+      "Generate a personalized referral message in seconds. Built by Dereck Johnson at Advanced Lead Solutions.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Know a Business Owner Who Could Use AI?",
+    description:
+      "Generate a personalized referral message in seconds. Built by Dereck Johnson at Advanced Lead Solutions.",
+  },
 };
 
 export default function RootLayout({

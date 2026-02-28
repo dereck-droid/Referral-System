@@ -87,6 +87,9 @@ export default function Home() {
             <p className="text-sm font-medium text-white/60 uppercase tracking-wider">
               Dereck Johnson
             </p>
+            <p className="mt-2 text-sm text-white/50 italic">
+              I appreciate you helping me spread the word!
+            </p>
           </div>
 
           {/* Headline */}
@@ -95,8 +98,9 @@ export default function Home() {
               Know a Business Owner Who Could Use AI?
             </h1>
             <p className="mt-3 text-base text-white/70 leading-relaxed md:text-lg">
-              Fill in three fields below and we&apos;ll generate a ready-to-send
-              text message for you. Takes about 10 seconds.
+              Just tell me who you&apos;re thinking of and what kind of
+              business they run. I&apos;ll write a personalized text message
+              you can send them to see if they&apos;re interested.
             </p>
           </div>
 
