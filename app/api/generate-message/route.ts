@@ -99,7 +99,7 @@ ${rulesText}
 - Keep the message under 500 characters when possible.`;
 
     const response = await anthropic.messages.create({
-      model: "claude-sonnet-4-5-20250514",
+      model: "claude-sonnet-4-5",
       max_tokens: 600,
       messages: [
         {

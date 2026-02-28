@@ -85,10 +85,7 @@ export default function WhatDereckDoes() {
             It&apos;s a conversation, not a sales pitch. I&apos;ll ask about
             how your business runs, where time is being spent on things that
             feel repetitive or manual, and I&apos;ll tell you honestly what AI
-            can and can&apos;t do for your situation. Sometimes the answer is
-            &ldquo;there&apos;s already a tool for that and you don&apos;t need
-            me.&rdquo; I&apos;d rather give you clarity than sell you something
-            you don&apos;t need.
+            can and can&apos;t do for your situation.
           </p>
         </div>
       </div>
