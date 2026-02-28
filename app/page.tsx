@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "@/components/Header";
 import ReferralForm from "@/components/ReferralForm";
 import MessageResult from "@/components/MessageResult";
+import WhatDereckDoes from "@/components/WhatDereckDoes";
 
 interface FormData {
   referrerName: string;
@@ -133,6 +134,9 @@ export default function Home() {
           </p>
         </div>
       </div>
+
+      {/* What Does Dereck Actually Do? */}
+      <WhatDereckDoes />
     </div>
   );
 }
