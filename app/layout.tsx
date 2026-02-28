@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://referral-system.vercel.app"
-  ),
+  metadataBase: new URL("https://family-friends.advancedleadsolutions.com"),
   title: "Refer a Business Owner | Advanced Lead Solutions",
   description:
     "Know a business owner who could benefit from AI? Generate a personalized referral message in seconds.",
@@ -17,6 +15,8 @@ export const metadata: Metadata = {
     description:
       "Generate a personalized referral message in seconds. Built by Dereck Johnson at Advanced Lead Solutions.",
     type: "website",
+    siteName: "Advanced Lead Solutions",
+    url: "https://family-friends.advancedleadsolutions.com",
   },
   twitter: {
     card: "summary_large_image",
