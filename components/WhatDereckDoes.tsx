@@ -2,6 +2,15 @@
 
 const PROJECTS = [
   {
+    tag: "Church",
+    title: "Prayer Board App",
+    status: "Launching Soon",
+    description:
+      "Churches manage prayer requests with spreadsheets, group texts, or email threads \u2014 and requests fall through the cracks. But the bigger loss is that when prayers are answered, there\u2019s no way for the congregation to see it. I built a private community app where members submit prayer requests, the prayer team is notified automatically, and when someone marks a prayer as answered, the whole church gets to celebrate together in real time.",
+    highlight:
+      "Answered prayers are some of the most powerful moments in a church \u2014 they shouldn\u2019t be invisible.",
+  },
+  {
     tag: "Music School",
     title: "Teacher\u2019s Command Center",
     status: "Live & Active",
@@ -49,7 +58,7 @@ export default function WhatDereckDoes() {
       <div className="mx-auto max-w-2xl px-5 py-16 md:py-24">
         {/* Section header */}
         <h2 className="font-serif text-2xl font-bold text-white md:text-3xl mb-6 text-center">
-          So What Does Dereck Actually Do?
+          Wanna Know More About What I Do?
         </h2>
 
         {/* Opening paragraph */}
@@ -78,9 +87,9 @@ export default function WhatDereckDoes() {
               className="group rounded-xl border border-white/10 bg-white/[0.03] overflow-hidden transition-colors hover:border-white/20 hover:bg-white/[0.05]"
             >
               {/* Card header */}
-              <div className="flex items-center justify-between px-5 pt-4 pb-2 md:px-6">
-                <div className="flex items-center gap-3">
-                  <span className="inline-block rounded-full bg-white/10 px-3 py-0.5 text-xs font-medium uppercase tracking-wider text-white/60">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between px-5 pt-4 pb-2 md:px-6">
+                <div className="flex flex-col sm:flex-row sm:items-center gap-1.5 sm:gap-3">
+                  <span className="inline-block self-start rounded-full bg-white/10 px-3 py-0.5 text-xs font-medium uppercase tracking-wider text-white/60">
                     {project.tag}
                   </span>
                   <h4 className="font-serif text-lg font-semibold text-white">
