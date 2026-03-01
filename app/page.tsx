@@ -77,8 +77,18 @@ export default function Home() {
         />
 
         <div className="relative z-10 mx-auto max-w-lg px-5 py-12 md:py-16">
-          {/* Dereck's photo */}
+          {/* Headline */}
           <div className="mb-6 text-center fade-in-up">
+            <h1 className="font-serif text-3xl font-bold text-white md:text-4xl leading-tight">
+              One Simple Message Helps More Than You Know.
+            </h1>
+            <p className="mt-2 text-lg font-semibold italic text-white/90 md:text-xl">
+              I&apos;ll even write it for you!
+            </p>
+          </div>
+
+          {/* Dereck's photo + name */}
+          <div className="mb-6 text-center fade-in-up" style={{ animationDelay: "0.1s" }}>
             <img
               src="https://storage.googleapis.com/msgsndr/1EjKer2tT55V5W7qhfnX/media/691e38dbd4f9b354c077cb4f.png"
               alt="Dereck Johnson"
@@ -87,27 +97,24 @@ export default function Home() {
             <p className="text-sm font-medium text-white/60 uppercase tracking-wider">
               Dereck Johnson
             </p>
-            <p className="mt-2 text-sm text-white/50 italic">
-              I appreciate you helping me spread the word!
-            </p>
           </div>
 
-          {/* Headline */}
-          <div className="mb-8 text-center fade-in-up" style={{ animationDelay: "0.1s" }}>
-            <h1 className="font-serif text-3xl font-bold text-white md:text-4xl leading-tight">
-              Know a Business Owner Who Could Use AI?
-            </h1>
-            <p className="mt-3 text-base text-white/70 leading-relaxed md:text-lg">
-              Just tell me who you&apos;re thinking of and what kind of
-              business they run. I&apos;ll write a personalized text message
-              you can send them to see if they&apos;re interested.
-            </p>
-          </div>
+          {/* Instructions */}
+          <p className="mb-4 text-center text-base text-white/70 leading-relaxed md:text-lg fade-in-up" style={{ animationDelay: "0.15s" }}>
+            Just tell me who you&apos;re thinking of and what kind of
+            business they run. I&apos;ll write a personalized text message
+            you can send them to see if they&apos;re interested.
+          </p>
+
+          {/* Gratitude */}
+          <p className="mb-6 text-center text-sm text-white/50 italic fade-in-up" style={{ animationDelay: "0.2s" }}>
+            This means more than you know. Thank you!
+          </p>
 
           {/* Form Card */}
           <div
             className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-2xl backdrop-blur-sm fade-in-up md:p-8"
-            style={{ animationDelay: "0.2s" }}
+            style={{ animationDelay: "0.25s" }}
           >
             {generatedMessage && !isLoading ? (
               <MessageResult
