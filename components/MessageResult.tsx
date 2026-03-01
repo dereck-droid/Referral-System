@@ -139,7 +139,7 @@ export default function MessageResult({
       {/* Refer another */}
       <button
         onClick={onStartOver}
-        className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-white/20 bg-white/5 px-4 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-all hover:border-white/40 hover:bg-white/10"
+        className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-accent-cyan/30 bg-accent-cyan/10 px-4 py-3.5 text-sm font-semibold text-white backdrop-blur-sm transition-all hover:border-accent-cyan/50 hover:bg-accent-cyan/20"
       >
         <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
