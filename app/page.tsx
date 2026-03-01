@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "@/components/Header";
 import ReferralForm from "@/components/ReferralForm";
 import MessageResult from "@/components/MessageResult";
+import LoadingSequence from "@/components/LoadingSequence";
 import WhatDereckDoes from "@/components/WhatDereckDoes";
 
 interface FormData {
@@ -21,6 +22,7 @@ export default function Home() {
   const generateMessage = async (data: FormData) => {
     setIsLoading(true);
     setError(null);
+    setLastFormData(data);
 
     try {
       const response = await fetch("/api/generate-message", {
@@ -36,7 +38,6 @@ export default function Home() {
       }
 
       setGeneratedMessage(result.message);
-      setLastFormData(data);
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : "Something went wrong.";
       setError(msg);
@@ -122,6 +123,10 @@ export default function Home() {
                 onRegenerate={handleRegenerate}
                 onStartOver={handleStartOver}
                 isRegenerating={isLoading}
+              />
+            ) : isLoading ? (
+              <LoadingSequence
+                businessType={lastFormData?.businessType ?? "business"}
               />
             ) : (
               <>
