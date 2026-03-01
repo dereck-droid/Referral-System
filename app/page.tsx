@@ -53,8 +53,8 @@ export default function Home() {
 
   const handleStartOver = () => {
     setGeneratedMessage(null);
-    setLastFormData(null);
     setError(null);
+    // Keep lastFormData so we can preserve the referrer's name
   };
 
   return (
@@ -121,6 +121,7 @@ export default function Home() {
                 <ReferralForm
                   onSubmit={generateMessage}
                   isLoading={isLoading}
+                  defaultReferrerName={lastFormData?.referrerName ?? ""}
                 />
                 {error && (
                   <p className="mt-4 text-center text-sm text-red-400">

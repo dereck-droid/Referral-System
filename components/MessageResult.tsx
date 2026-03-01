@@ -136,15 +136,16 @@ export default function MessageResult({
         </button>
       </div>
 
-      {/* Start over */}
-      <div className="text-center pt-2">
-        <button
-          onClick={onStartOver}
-          className="text-sm text-white/50 hover:text-white transition-colors underline underline-offset-2"
-        >
-          Start Over
-        </button>
-      </div>
+      {/* Refer another */}
+      <button
+        onClick={onStartOver}
+        className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-white/20 bg-white/5 px-4 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-all hover:border-white/40 hover:bg-white/10"
+      >
+        <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+        </svg>
+        Refer Another
+      </button>
     </div>
   );
 }

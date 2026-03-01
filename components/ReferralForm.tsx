@@ -9,13 +9,15 @@ interface ReferralFormProps {
     businessType: string;
   }) => void;
   isLoading: boolean;
+  defaultReferrerName?: string;
 }
 
 export default function ReferralForm({
   onSubmit,
   isLoading,
+  defaultReferrerName = "",
 }: ReferralFormProps) {
-  const [referrerName, setReferrerName] = useState("");
+  const [referrerName, setReferrerName] = useState(defaultReferrerName);
   const [contactName, setContactName] = useState("");
   const [businessType, setBusinessType] = useState("");
 
@@ -40,7 +42,7 @@ export default function ReferralForm({
           htmlFor="referrerName"
           className="mb-2 block text-sm font-semibold text-white/90"
         >
-          Your First Name
+          Your Name
         </label>
         <input
           id="referrerName"
@@ -50,7 +52,7 @@ export default function ReferralForm({
           placeholder="Your name"
           className="w-full rounded-lg border-2 border-white/10 bg-white/10 px-4 py-3.5 text-base text-white placeholder-white/40 backdrop-blur-sm transition-all focus:border-accent-cyan focus:bg-white/15 focus:outline-none"
           required
-          autoComplete="given-name"
+          autoComplete="name"
         />
       </div>
 
