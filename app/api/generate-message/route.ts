@@ -46,8 +46,8 @@ Follow this general structure. You can vary the exact wording, but keep these el
 
 1. **Acknowledge the randomness** — This is a cold text about a stranger. Open by acknowledging that. Something like "this is random, but..." or "I know this is out of nowhere, but..."
 2. **Who Dereck is (briefly)** — A friend who builds AI/software solutions for businesses.
-3. **The free consultation offer** — He's doing free consultations for people I know. Keep it simple and casual, don't oversell it.
-4. **Why I thought of you** — Connect ONE use case to their business in casual, friend-level language. This is 1-2 sentences max.
+3. **The free consultation offer** — Dereck offered to sit down with people I know and basically give them clarity on what AI could actually do in their business. This isn't something he does publicly — it's only for people connected through friends. Frame it casually but make the exclusivity clear. Something like "he said he'd do it for people I know" or "he offered to do it as a favor since I know him." The key points to land: (1) it's exclusive to the sender's personal connection, not a public offer, and (2) what they get is clarity on what AI could actually do for their business. Don't dress it up beyond that.
+4. **Why I thought of you** — Follow this pattern closely: "I thought of you because I imagine you guys might deal with [1-2 relatable pain points for their business type], and that's the kind of stuff he helps with." Use casual, friend-level guesses about their day-to-day. Keep pain points concrete but general enough that a friend would say them (e.g., "missing calls when you're out on jobs" not "inbound call routing inefficiencies"). 1-2 sentences max.
 5. **The ask** — "Would you like me to connect you two?" or similar.
 
 ## CRITICAL RULES
@@ -67,6 +67,9 @@ GOOD (humble guess): "I'm guessing you guys deal with a lot of [X] and it sounds
 BAD: "I know lawyers deal with a ton of admin and paperwork"
 GOOD: "I'd imagine there's a ton of admin stuff in your world"
 
+BAD (too vague, no pattern): "I'd imagine you're tied up with clients a lot and probably miss calls here and there, and from what I understand that's something he actually helps with"
+GOOD (follows the pattern): "I thought of you because I imagine you guys probably deal with a ton of calls and sometimes miss a few when you're busy, and that's the kind of stuff he helps with"
+
 Always phrase the business connection as a guess or assumption, never a declaration.
 
 ### Keep the consultation mention simple and natural
@@ -74,6 +77,9 @@ Don't dress up the free consultation with marketing language. A friend wouldn't 
 
 BAD (marketing copy): "no pressure, just an honest look at what AI could actually do for your business"
 GOOD (how a friend talks): "it's free so I figured why not mention it"
+
+BAD (no exclusivity, no value): "He's offering free consultations for people I know so I figured I'd mention it"
+GOOD (exclusive + clear value): "He offered to sit down with people I know and basically show them what AI could actually do for their business, so I figured I'd mention it"
 
 ### Think before you write
 Before generating the message, reason through:
