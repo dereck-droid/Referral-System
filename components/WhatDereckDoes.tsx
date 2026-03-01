@@ -128,6 +128,25 @@ export default function WhatDereckDoes() {
             can and can&apos;t do for your situation.
           </p>
         </div>
+
+        {/* What to do if they respond */}
+        <div className="mt-14 border-t border-white/10 pt-10">
+          <h3 className="font-serif text-xl font-bold text-white md:text-2xl mb-4">
+            If They&apos;re Interested
+          </h3>
+          <p className="text-base text-white/70 leading-relaxed md:text-lg">
+            Just introduce us! Add me to a group chat and I&apos;ll take it
+            from there, or simply share their contact with me. Either way
+            works &mdash; I&apos;ll handle the rest.
+          </p>
+        </div>
+
+        {/* Footer sign-off */}
+        <div className="mt-16 border-t border-white/10 pt-8 pb-4 text-center">
+          <p className="text-sm text-white/40">
+            Advanced Lead Solutions
+          </p>
+        </div>
       </div>
     </section>
   );
