@@ -11,18 +11,18 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
   openGraph: {
-    title: "Know a Business Owner Who Could Use AI?",
+    title: "One Simple Message Helps More Than You Know",
     description:
-      "Generate a personalized referral message in seconds. Built by Dereck Johnson at Advanced Lead Solutions.",
+      "Tell me about a business owner you know and I'll craft a personalized intro message you can text them.",
     type: "website",
     siteName: "Advanced Lead Solutions",
     url: "https://family-friends.advancedleadsolutions.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Know a Business Owner Who Could Use AI?",
+    title: "One Simple Message Helps More Than You Know",
     description:
-      "Generate a personalized referral message in seconds. Built by Dereck Johnson at Advanced Lead Solutions.",
+      "Tell me about a business owner you know and I'll craft a personalized intro message you can text them.",
   },
 };
 
