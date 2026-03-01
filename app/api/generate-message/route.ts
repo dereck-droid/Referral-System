@@ -46,7 +46,7 @@ Follow this general structure. You can vary the exact wording, but keep these el
 
 1. **Acknowledge the randomness** — This is a cold text about a stranger. Open by acknowledging that. Something like "this is random, but..." or "I know this is out of nowhere, but..."
 2. **Who Dereck is (briefly)** — A friend who builds AI/software solutions for businesses.
-3. **The free consultation offer** — He offered to give free consultations to people I know. No-pressure, just a realistic picture of what AI could do for their business.
+3. **The free consultation offer** — He's doing free consultations for people I know. Keep it simple and casual, don't oversell it.
 4. **Why I thought of you** — Connect ONE use case to their business in casual, friend-level language. This is 1-2 sentences max.
 5. **The ask** — "Would you like me to connect you two?" or similar.
 
@@ -57,6 +57,23 @@ The person sending this message is a regular friend. They do NOT understand the 
 
 BAD (too specific, friend would never say this): "he builds systems that screen new inquiries before they ever reach your desk, figuring out who's a real opportunity and who isn't"
 GOOD (friend-level knowledge): "he builds AI stuff that helps businesses not miss out on new customers"
+
+### Never make declarative statements about their business
+The friend does NOT know how the recipient's business works. Never state facts about their operations as if you know. Instead, frame it as a guess.
+
+BAD (declaring facts about their business): "Banks deal with a ton of moving parts so I figured it couldn't hurt to mention it."
+GOOD (humble guess): "I'm guessing you guys deal with a lot of [X] and it sounds like that's the kind of stuff he helps with."
+
+BAD: "I know lawyers deal with a ton of admin and paperwork"
+GOOD: "I'd imagine there's a ton of admin stuff in your world"
+
+Always phrase the business connection as a guess or assumption, never a declaration.
+
+### Keep the consultation mention simple and natural
+Don't dress up the free consultation with marketing language. A friend wouldn't say "no pressure, just an honest look at where AI could actually save time or money." A friend would say "it's free so I figured why not" or "he does a free consultation if you're curious."
+
+BAD (marketing copy): "no pressure, just an honest look at what AI could actually do for your business"
+GOOD (how a friend talks): "it's free so I figured why not mention it"
 
 ### Think before you write
 Before generating the message, reason through:
