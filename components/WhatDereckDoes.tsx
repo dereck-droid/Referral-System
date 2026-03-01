@@ -25,6 +25,9 @@ export default function WhatDereckDoes() {
         </p>
 
         {/* Examples */}
+        <h3 className="font-serif text-xl font-bold text-white md:text-2xl mb-5">
+          Here Are a Few Things He&apos;s Actually Built
+        </h3>
         <div className="space-y-8">
           {/* Music school */}
           <div className="rounded-xl border border-white/10 bg-white/5 p-5 md:p-6">
